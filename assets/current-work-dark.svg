@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="356" viewBox="0 0 860 356">
+<style>
+.card{fill:#161b22;stroke:#30363d;stroke-width:1}
+.latest{fill:#0d1117;stroke:#30363d;stroke-width:1}
+.repo{fill:#58a6ff;font:600 16px Arial,sans-serif}
+.status{fill:#8b949e;font:600 12px Arial,sans-serif}
+.focus{fill:#f0f6fc;font:600 14px Arial,sans-serif}
+.desc{fill:#8b949e;font:400 12px Arial,sans-serif}
+.meta{fill:#8b949e;font:400 11px Consolas,monospace}
+.latest-label{fill:#8b949e;font:700 9px Arial,sans-serif;letter-spacing:.12em}
+.latest-title{fill:#f0f6fc;font:600 12px Arial,sans-serif}
+.green{fill:#3fb950}
+</style>
+<rect width="100%" height="100%" fill="#0d1117"/>
+
+<a href="https://github.com/qiyi71w/readboard" target="_blank">
+<rect class="card" x="20" y="8" rx="14" width="820" height="132"/>
+<circle class="green" cx="46" cy="36" r="6"/>
+<text class="repo" x="62" y="42">qiyi71w/readboard</text>
+<text class="status" x="810" y="42" text-anchor="end">Active</text>
+<text class="focus" x="42" y="74">Current development</text>
+<text class="desc" x="42" y="99">Windows Go board synchronization tool for LizzieYzy-Next, with screen…</text>
+<text class="meta" x="42" y="124">C++ · C# · WebView2 · ★ 5 · Issues 0 · PRs 0</text>
+<text class="meta" x="810" y="124" text-anchor="end">updated 23h ago</text>
+</a>
+<a href="https://github.com/wimi321/lizzieyzy-next" target="_blank">
+<rect class="card" x="20" y="154" rx="14" width="820" height="178"/>
+<circle class="green" cx="46" cy="182" r="6"/>
+<text class="repo" x="62" y="188">wimi321/lizzieyzy-next</text>
+<text class="status" x="810" y="188" text-anchor="end">Active Contributor</text>
+<text class="focus" x="42" y="219">Contributing via pull requests</text>
+<text class="meta" x="42" y="242">@qiyi71w · 79 merged PRs · 0 open PRs</text>
+</a>
+<a href="https://github.com/wimi321/lizzieyzy-next/pull/367" target="_blank">
+<rect class="latest" x="42" y="259" rx="9" width="776" height="58"/>
+<text class="latest-label" x="58" y="280">LATEST PR</text>
+<text class="latest-title" x="58" y="304">#367  fix(engine): converge switch menu to PRIMARY after failed rol…</text>
+<text class="meta" x="802" y="304" text-anchor="end">Merged · 1h ago</text>
+</a>
+</svg>
