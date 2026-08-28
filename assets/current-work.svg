@@ -1,39 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="860" height="444" viewBox="0 0 860 444">
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="356" viewBox="0 0 860 356">
 <style>
 .card{fill:#f6f8fa;stroke:#d0d7de;stroke-width:1} .latest{fill:#fff;stroke:#d8dee4;stroke-width:1}
-.title{fill:#1f2328;font:700 20px Arial,sans-serif;letter-spacing:.12em}
-.subtitle{fill:#656d76;font:400 13px Arial,sans-serif} .repo{fill:#0969da;font:600 16px Arial,sans-serif}
+.repo{fill:#0969da;font:600 16px Arial,sans-serif}
 .status{fill:#656d76;font:600 12px Arial,sans-serif} .focus{fill:#1f2328;font:600 14px Arial,sans-serif}
 .desc{fill:#656d76;font:400 12px Arial,sans-serif} .meta{fill:#656d76;font:400 11px Consolas,monospace}
 .latest-label{fill:#656d76;font:700 9px Arial,sans-serif;letter-spacing:.12em}
 .latest-title{fill:#1f2328;font:600 12px Arial,sans-serif} .green{fill:#2da44e}
 </style>
 <rect width="100%" height="100%" fill="#fff"/>
-<text class="title" x="20" y="34">CURRENT WORK</text>
-<text class="subtitle" x="20" y="60">What I&#x27;m building right now</text>
 
 <a href="https://github.com/qiyi71w/readboard" target="_blank">
-<rect class="card" x="20" y="96" rx="14" width="820" height="132"/>
-<circle class="green" cx="46" cy="124" r="6"/>
-<text class="repo" x="62" y="130">qiyi71w/readboard</text>
-<text class="status" x="810" y="130" text-anchor="end">Active</text>
-<text class="focus" x="42" y="162">Current development</text>
-<text class="desc" x="42" y="187">Windows Go board synchronization tool for LizzieYzy-Next, with screen…</text>
-<text class="meta" x="42" y="212">C++ · C# · WebView2 · ★ 5 · Issues 0 · PRs 0</text>
-<text class="meta" x="810" y="212" text-anchor="end">updated 15h ago</text>
+<rect class="card" x="20" y="8" rx="14" width="820" height="132"/>
+<circle class="green" cx="46" cy="36" r="6"/>
+<text class="repo" x="62" y="42">qiyi71w/readboard</text>
+<text class="status" x="810" y="42" text-anchor="end">Active</text>
+<text class="focus" x="42" y="74">Current development</text>
+<text class="desc" x="42" y="99">Windows Go board synchronization tool for LizzieYzy-Next, with screen…</text>
+<text class="meta" x="42" y="124">C++ · C# · WebView2 · ★ 5 · Issues 0 · PRs 0</text>
+<text class="meta" x="810" y="124" text-anchor="end">updated 15h ago</text>
 </a>
 <a href="https://github.com/wimi321/lizzieyzy-next" target="_blank">
-<rect class="card" x="20" y="242" rx="14" width="820" height="178"/>
-<circle class="green" cx="46" cy="270" r="6"/>
-<text class="repo" x="62" y="276">wimi321/lizzieyzy-next</text>
-<text class="status" x="810" y="276" text-anchor="end">Active Contributor</text>
-<text class="focus" x="42" y="307">Contributing via pull requests</text>
-<text class="meta" x="42" y="330">@qiyi71w · 77 merged PRs · 0 open PRs</text>
+<rect class="card" x="20" y="154" rx="14" width="820" height="178"/>
+<circle class="green" cx="46" cy="182" r="6"/>
+<text class="repo" x="62" y="188">wimi321/lizzieyzy-next</text>
+<text class="status" x="810" y="188" text-anchor="end">Active Contributor</text>
+<text class="focus" x="42" y="219">Contributing via pull requests</text>
+<text class="meta" x="42" y="242">@qiyi71w · 77 merged PRs · 0 open PRs</text>
 </a>
 <a href="https://github.com/wimi321/lizzieyzy-next/pull/364" target="_blank">
-<rect class="latest" x="42" y="347" rx="9" width="776" height="58"/>
-<text class="latest-label" x="58" y="368">LATEST PR</text>
-<text class="latest-title" x="58" y="392">#364  docs(github): add optional Logs field to the bug form</text>
-<text class="meta" x="802" y="392" text-anchor="end">Merged · 2h ago</text>
+<rect class="latest" x="42" y="259" rx="9" width="776" height="58"/>
+<text class="latest-label" x="58" y="280">LATEST PR</text>
+<text class="latest-title" x="58" y="304">#364  docs(github): add optional Logs field to the bug form</text>
+<text class="meta" x="802" y="304" text-anchor="end">Merged · 2h ago</text>
 </a>
 </svg>
