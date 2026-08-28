@@ -4,6 +4,10 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "7 1 * * *"
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/metrics.yml"
 
 permissions:
   contents: write
@@ -19,6 +23,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
           filename: assets/github-metrics.svg
           user: qiyi71w
           base: header
