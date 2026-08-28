@@ -5,7 +5,7 @@ I build desktop software, developer tools, and experiments around AI-assisted de
 ## GitHub Metrics
 
 <p align="center">
-  <img src="./assets/github-metrics.svg" width="480" alt="GitHub metrics" />
+  <img src="./assets/github-metrics.svg" width="100%" alt="GitHub metrics" />
 </p>
 
 ## Current Work
