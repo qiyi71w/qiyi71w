@@ -2,16 +2,16 @@
 
 I build desktop software, developer tools, and experiments around AI-assisted development.
 
+## GitHub Metrics
+
+<p align="center">
+  <img src="./assets/github-metrics.svg" width="480" alt="GitHub metrics" />
+</p>
+
 ## Current Work
 
 <p align="center">
   <img src="./assets/current-work.svg" width="100%" alt="Current work" />
-</p>
-
-## GitHub Metrics
-
-<p align="center">
-  <img src="./assets/github-metrics.svg" width="100%" alt="GitHub metrics" />
 </p>
 
 ## Activity
