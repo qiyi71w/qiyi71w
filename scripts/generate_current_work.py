@@ -53,7 +53,7 @@ def repo_data(item, token):
         "status": item.get("status", "Active"),
         "focus": item.get("focus", "Current development"),
         "description": shorten(info.get("description") or "No repository description"),
-        "language": info.get("language") or "Mixed",
+        "language": item.get("stack") or info.get("language") or "Mixed",
         "stars": info.get("stargazers_count", 0),
         "issues": search(f"repo:{repo} is:issue is:open", token)["total_count"],
         "prs": search(f"repo:{repo} is:pr is:open", token)["total_count"],
@@ -94,7 +94,7 @@ def demo_repo(item):
         "mode":"repository","repo":item["repo"],"url":f"https://github.com/{item['repo']}",
         "status":"Active","focus":"Current development",
         "description":"Desktop software and developer tooling.",
-        "language":"C++","stars":18,"issues":4,"prs":1,"updated":"1d ago"
+        "language":item.get("stack") or "C++","stars":18,"issues":4,"prs":1,"updated":"1d ago"
     }
 
 def demo_contributor(item):
