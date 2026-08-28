@@ -3,7 +3,7 @@ name: Update Current Work
 on:
   workflow_dispatch:
   schedule:
-    - cron: "17 */6 * * *"
+    - cron: "17 * * * *"
   push:
     branches: [main]
     paths:
@@ -28,7 +28,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.x"
-      - name: Generate and publish Current Work SVG
+      - name: Generate and publish Current Work SVGs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -38,21 +38,21 @@ jobs:
 
           for attempt in 1 2 3; do
             echo "Publish attempt ${attempt}/3"
-
-            # Always render from the latest main so a user push that lands while
-            # this workflow is running cannot leave us with a stale commit base.
             git fetch origin main
             git reset --hard origin/main
 
-            python scripts/generate_current_work.py
-            git add assets/current-work.svg
+            python scripts/generate_current_work.py \
+              --output assets/current-work.svg \
+              --dark-output assets/current-work-dark.svg
+
+            git add assets/current-work.svg assets/current-work-dark.svg
 
             if git diff --cached --quiet; then
-              echo "Current Work SVG is already up to date."
+              echo "Current Work SVGs are already up to date."
               exit 0
             fi
 
-            git commit -m "chore: update current work card"
+            git commit -m "chore: update current work cards"
 
             if git push origin HEAD:main; then
               exit 0
@@ -61,5 +61,5 @@ jobs:
             echo "main advanced while publishing; regenerating from latest main..."
           done
 
-          echo "Failed to publish Current Work SVG after 3 attempts."
+          echo "Failed to publish Current Work SVGs after 3 attempts."
           exit 1
