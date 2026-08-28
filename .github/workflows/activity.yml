@@ -1,0 +1,61 @@
+name: Update Activity Graph
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "27 1 * * *"
+  push:
+    branches: [main]
+    paths:
+      - "scripts/generate_activity_graph.py"
+      - ".github/workflows/activity.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-write
+  cancel-in-progress: false
+
+jobs:
+  activity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Generate and publish activity graph
+        env:
+          METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          for attempt in 1 2 3; do
+            echo "Publish attempt ${attempt}/3"
+            git fetch origin main
+            git reset --hard origin/main
+
+            python scripts/generate_activity_graph.py
+            git add assets/activity-graph.svg assets/activity-graph-dark.svg
+
+            if git diff --cached --quiet; then
+              echo "Activity graph is already up to date."
+              exit 0
+            fi
+
+            git commit -m "chore: update activity graph"
+
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+
+            echo "main advanced while publishing; regenerating from latest main..."
+          done
+
+          echo "Failed to publish activity graph after 3 attempts."
+          exit 1
