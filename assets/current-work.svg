@@ -1,13 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="860" height="356" viewBox="0 0 860 356">
 <style>
-.card{fill:#f6f8fa;stroke:#d0d7de;stroke-width:1} .latest{fill:#fff;stroke:#d8dee4;stroke-width:1}
+.card{fill:#f6f8fa;stroke:#d0d7de;stroke-width:1}
+.latest{fill:#ffffff;stroke:#d0d7de;stroke-width:1}
 .repo{fill:#0969da;font:600 16px Arial,sans-serif}
-.status{fill:#656d76;font:600 12px Arial,sans-serif} .focus{fill:#1f2328;font:600 14px Arial,sans-serif}
-.desc{fill:#656d76;font:400 12px Arial,sans-serif} .meta{fill:#656d76;font:400 11px Consolas,monospace}
+.status{fill:#656d76;font:600 12px Arial,sans-serif}
+.focus{fill:#1f2328;font:600 14px Arial,sans-serif}
+.desc{fill:#656d76;font:400 12px Arial,sans-serif}
+.meta{fill:#656d76;font:400 11px Consolas,monospace}
 .latest-label{fill:#656d76;font:700 9px Arial,sans-serif;letter-spacing:.12em}
-.latest-title{fill:#1f2328;font:600 12px Arial,sans-serif} .green{fill:#2da44e}
+.latest-title{fill:#1f2328;font:600 12px Arial,sans-serif}
+.green{fill:#2da44e}
 </style>
-<rect width="100%" height="100%" fill="#fff"/>
+<rect width="100%" height="100%" fill="#ffffff"/>
 
 <a href="https://github.com/qiyi71w/readboard" target="_blank">
 <rect class="card" x="20" y="8" rx="14" width="820" height="132"/>
@@ -17,7 +21,7 @@
 <text class="focus" x="42" y="74">Current development</text>
 <text class="desc" x="42" y="99">Windows Go board synchronization tool for LizzieYzy-Next, with screen…</text>
 <text class="meta" x="42" y="124">C++ · C# · WebView2 · ★ 5 · Issues 0 · PRs 0</text>
-<text class="meta" x="810" y="124" text-anchor="end">updated 15h ago</text>
+<text class="meta" x="810" y="124" text-anchor="end">updated 23h ago</text>
 </a>
 <a href="https://github.com/wimi321/lizzieyzy-next" target="_blank">
 <rect class="card" x="20" y="154" rx="14" width="820" height="178"/>
@@ -25,12 +29,12 @@
 <text class="repo" x="62" y="188">wimi321/lizzieyzy-next</text>
 <text class="status" x="810" y="188" text-anchor="end">Active Contributor</text>
 <text class="focus" x="42" y="219">Contributing via pull requests</text>
-<text class="meta" x="42" y="242">@qiyi71w · 77 merged PRs · 0 open PRs</text>
+<text class="meta" x="42" y="242">@qiyi71w · 79 merged PRs · 0 open PRs</text>
 </a>
-<a href="https://github.com/wimi321/lizzieyzy-next/pull/364" target="_blank">
+<a href="https://github.com/wimi321/lizzieyzy-next/pull/367" target="_blank">
 <rect class="latest" x="42" y="259" rx="9" width="776" height="58"/>
 <text class="latest-label" x="58" y="280">LATEST PR</text>
-<text class="latest-title" x="58" y="304">#364  docs(github): add optional Logs field to the bug form</text>
-<text class="meta" x="802" y="304" text-anchor="end">Merged · 2h ago</text>
+<text class="latest-title" x="58" y="304">#367  fix(engine): converge switch menu to PRIMARY after failed rol…</text>
+<text class="meta" x="802" y="304" text-anchor="end">Merged · 1h ago</text>
 </a>
 </svg>
