@@ -8,12 +8,6 @@ I build desktop software, developer tools, and experiments around AI-assisted de
   <img src="./assets/current-work.svg" width="100%" alt="Current work" />
 </p>
 
-## Projects & Contributions
-
-<p align="center">
-  <img src="./assets/featured-projects.svg" width="100%" alt="Projects and contributions" />
-</p>
-
 ## GitHub Metrics
 
 <p align="center">
@@ -21,6 +15,13 @@ I build desktop software, developer tools, and experiments around AI-assisted de
 </p>
 
 ## Activity
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-graph-dark.svg" />
+    <img src="./assets/activity-graph.svg" width="100%" alt="GitHub contribution activity graph" />
+  </picture>
+</p>
 
 <p align="center">
   <picture>
