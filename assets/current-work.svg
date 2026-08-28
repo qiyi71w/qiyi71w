@@ -18,9 +18,9 @@
 <text class="repo" x="62" y="130">qiyi71w/readboard</text>
 <text class="status" x="810" y="130" text-anchor="end">Active</text>
 <text class="focus" x="42" y="162">Current development</text>
-<text class="desc" x="42" y="187">Desktop software and developer tooling.</text>
-<text class="meta" x="42" y="212">C++ · ★ 18 · Issues 4 · PRs 1</text>
-<text class="meta" x="810" y="212" text-anchor="end">updated 1d ago</text>
+<text class="desc" x="42" y="187">Windows Go board synchronization tool for LizzieYzy-Next, with screen…</text>
+<text class="meta" x="42" y="212">Rich Text Format · ★ 5 · Issues 0 · PRs 0</text>
+<text class="meta" x="810" y="212" text-anchor="end">updated 13h ago</text>
 </a>
 <a href="https://github.com/wimi321/lizzieyzy-next" target="_blank">
 <rect class="card" x="20" y="242" rx="14" width="820" height="178"/>
@@ -34,6 +34,6 @@
 <rect class="latest" x="42" y="347" rx="9" width="776" height="58"/>
 <text class="latest-label" x="58" y="368">LATEST PR</text>
 <text class="latest-title" x="58" y="392">#364  docs(github): add optional Logs field to the bug form</text>
-<text class="meta" x="802" y="392" text-anchor="end">Merged · 8h ago</text>
+<text class="meta" x="802" y="392" text-anchor="end">Merged · 26m ago</text>
 </a>
 </svg>
