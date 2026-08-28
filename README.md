@@ -8,15 +8,10 @@ I build desktop software, developer tools, and experiments around AI-assisted de
   <img src="./assets/current-work.svg" width="100%" alt="Current work" />
 </p>
 
-## Featured Projects
+## Projects & Contributions
 
 <p align="center">
-  <a href="https://github.com/qiyi71w/readboard">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=qiyi71w&repo=readboard&hide_border=true" alt="ReadBoard" />
-  </a>
-  <a href="https://github.com/wimi321/lizzieyzy-next">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=wimi321&repo=lizzieyzy-next&hide_border=true" alt="lizzieyzy-next" />
-  </a>
+  <img src="./assets/featured-projects.svg" width="100%" alt="Projects and contributions" />
 </p>
 
 ## GitHub Metrics
@@ -26,10 +21,6 @@ I build desktop software, developer tools, and experiments around AI-assisted de
 </p>
 
 ## Activity
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=qiyi71w&theme=github-compact&hide_border=true&area=true&days=40" width="100%" alt="GitHub activity graph" />
-</p>
 
 <p align="center">
   <picture>
