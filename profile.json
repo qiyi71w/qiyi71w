@@ -1,0 +1,20 @@
+{
+  "username": "qiyi71w",
+  "title": "CURRENT WORK",
+  "subtitle": "What I'm building right now",
+  "repos": [
+    {
+      "repo": "qiyi71w/readboard",
+      "status": "Active",
+      "focus": "Current development",
+      "mode": "repository"
+    },
+    {
+      "repo": "wimi321/lizzieyzy-next",
+      "status": "Active Contributor",
+      "focus": "Contributing via pull requests",
+      "mode": "contributor",
+      "contributor": "qiyi71w"
+    }
+  ]
+}
