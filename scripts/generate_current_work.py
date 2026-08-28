@@ -145,27 +145,24 @@ def render_contributor(d, y):
 </a>'''
 
 def svg(config, cards):
-    y, chunks = 96, []
+    y, chunks = 8, []
     for d in cards:
         if d["mode"] == "contributor":
             chunks.append(render_contributor(d, y)); y += 192
         else:
             chunks.append(render_repo(d, y)); y += 146
-    height = y - 14 + 24
+    height = y + 10
     body = "".join(chunks)
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="860" height="{height}" viewBox="0 0 860 {height}">
 <style>
 .card{{fill:#f6f8fa;stroke:#d0d7de;stroke-width:1}} .latest{{fill:#fff;stroke:#d8dee4;stroke-width:1}}
-.title{{fill:#1f2328;font:700 20px Arial,sans-serif;letter-spacing:.12em}}
-.subtitle{{fill:#656d76;font:400 13px Arial,sans-serif}} .repo{{fill:#0969da;font:600 16px Arial,sans-serif}}
+.repo{{fill:#0969da;font:600 16px Arial,sans-serif}}
 .status{{fill:#656d76;font:600 12px Arial,sans-serif}} .focus{{fill:#1f2328;font:600 14px Arial,sans-serif}}
 .desc{{fill:#656d76;font:400 12px Arial,sans-serif}} .meta{{fill:#656d76;font:400 11px Consolas,monospace}}
 .latest-label{{fill:#656d76;font:700 9px Arial,sans-serif;letter-spacing:.12em}}
 .latest-title{{fill:#1f2328;font:600 12px Arial,sans-serif}} .green{{fill:#2da44e}}
 </style>
 <rect width="100%" height="100%" fill="#fff"/>
-<text class="title" x="20" y="34">{esc(config["title"])}</text>
-<text class="subtitle" x="20" y="60">{esc(config["subtitle"])}</text>
 {body}
 </svg>'''
 
