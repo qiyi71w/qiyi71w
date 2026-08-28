@@ -1,6 +1,6 @@
 # Hi, I'm qiyi71w
 
-I build desktop software, developer tools, and experiments around AI-assisted development.
+Undergraduate student at the University of Toronto, building desktop software, developer tools, and experiments around AI-assisted development.
 
 ## GitHub Metrics
 
@@ -11,7 +11,10 @@ I build desktop software, developer tools, and experiments around AI-assisted de
 ## Current Work
 
 <p align="center">
-  <img src="./assets/current-work.svg" width="100%" alt="Current work" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/current-work-dark.svg" />
+    <img src="./assets/current-work.svg" width="100%" alt="Current work" />
+  </picture>
 </p>
 
 ## Activity
