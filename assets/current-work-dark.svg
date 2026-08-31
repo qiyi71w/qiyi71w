@@ -21,7 +21,7 @@
 <text class="focus" x="42" y="74">Current development</text>
 <text class="desc" x="42" y="99">Windows Go board synchronization tool for LizzieYzy-Next, with screen…</text>
 <text class="meta" x="42" y="124">C++ · C# · WebView2 · ★ 5 · Issues 0 · PRs 0</text>
-<text class="meta" x="810" y="124" text-anchor="end">updated 3d ago</text>
+<text class="meta" x="810" y="124" text-anchor="end">updated 4d ago</text>
 </a>
 <a href="https://github.com/wimi321/lizzieyzy-next" target="_blank">
 <rect class="card" x="20" y="154" rx="14" width="820" height="178"/>
@@ -29,12 +29,12 @@
 <text class="repo" x="62" y="188">wimi321/lizzieyzy-next</text>
 <text class="status" x="810" y="188" text-anchor="end">Active Contributor</text>
 <text class="focus" x="42" y="219">Contributing via pull requests</text>
-<text class="meta" x="42" y="242">@qiyi71w · 90 merged PRs · 0 open PRs</text>
+<text class="meta" x="42" y="242">@qiyi71w · 91 merged PRs · 0 open PRs</text>
 </a>
-<a href="https://github.com/wimi321/lizzieyzy-next/pull/392" target="_blank">
+<a href="https://github.com/wimi321/lizzieyzy-next/pull/401" target="_blank">
 <rect class="latest" x="42" y="259" rx="9" width="776" height="58"/>
 <text class="latest-label" x="58" y="280">LATEST PR</text>
-<text class="latest-title" x="58" y="304">#392  fix(tensorrt): unblock repair from DirectML profiles</text>
-<text class="meta" x="802" y="304" text-anchor="end">Merged · 20h ago</text>
+<text class="latest-title" x="58" y="304">#401  feat(winrate-graph): improve score lead readability</text>
+<text class="meta" x="802" y="304" text-anchor="end">Merged · 3h ago</text>
 </a>
 </svg>
