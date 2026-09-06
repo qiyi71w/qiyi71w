@@ -29,12 +29,12 @@
 <text class="repo" x="62" y="188">wimi321/lizzieyzy-next</text>
 <text class="status" x="810" y="188" text-anchor="end">Active Contributor</text>
 <text class="focus" x="42" y="219">Contributing via pull requests</text>
-<text class="meta" x="42" y="242">@qiyi71w · 99 merged PRs · 0 open PRs</text>
+<text class="meta" x="42" y="242">@qiyi71w · 100 merged PRs · 1 open PRs</text>
 </a>
-<a href="https://github.com/wimi321/lizzieyzy-next/pull/435" target="_blank">
+<a href="https://github.com/wimi321/lizzieyzy-next/pull/438" target="_blank">
 <rect class="latest" x="42" y="259" rx="9" width="776" height="58"/>
 <text class="latest-label" x="58" y="280">LATEST PR</text>
-<text class="latest-title" x="58" y="304">#435  feat(enginegame): verify and restore match rules</text>
-<text class="meta" x="802" y="304" text-anchor="end">Merged · 16h ago</text>
+<text class="latest-title" x="58" y="304">#438  fix(diagnostics): bound export work and unblock completion</text>
+<text class="meta" x="802" y="304" text-anchor="end">Open · 7m ago</text>
 </a>
 </svg>
